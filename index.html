@@ -27,21 +27,45 @@
     }
 
     table {
-      border: 1px solid red;
+      border: 2px solid brown;
       border-collapse: collapse;
     }
 
     th {
-      border: 1px solid green;
+      border: 2px solid brown;
       border-collapse: collapse;
       text-align: center;
-      background-color: purple;
+      padding: 10px;
     }
      td {
-      border: 1px solid black;
+      border: 2px solid brown;
       border-collapse: collapse;
-      border-style: dotted;
+      /* border-style: dotted; */
       text-align: center;
+      padding: 10px;
+      background-color: yellow;
+    }
+
+    .year-col {
+      background-color: blue;
+    }
+    .month-col {
+      background-color: blueviolet;
+    }
+    .quarter-col {
+      background-color: greenyellow;
+    }
+    .q1 {
+      background-color: pink;
+    }
+    .q2 {
+      background-color: aqua;
+    }
+    .q3 {
+      background-color: chartreuse;
+    }
+    .q4 {
+      background-color: burlywood;
     }
 
   </style>
@@ -201,6 +225,73 @@
     </tbody>
   </table>
 
+  <br>
+  <br>
 
+  <!-- colspan and rowspan -->
+
+  <table>
+    <thead>
+      <tr>
+        <th class="year-col" rowspan="4">Year</th>
+        <th class="quarter-col" colspan="12">Quarter</th>
+      </tr>
+      <tr>
+        <th class="month-col" colspan="12">Month</th>
+      </tr>
+      <tr>
+        <th class="q1" colspan="3">Q1</th>
+        <th class="q2" colspan="3">Q2</th>
+        <th class="q3" colspan="3">Q3</th>
+        <th class="q4" colspan="3">Q4</th>
+      </tr>
+      <tr>
+        <td class="q1">Jan</td>
+        <td class="q1">Feb</td>
+        <td class="q1">Mar</td>
+        <td class="q2">Apr</td>
+        <td class="q2">May</td>
+        <td class="q2">Jun</td>
+        <td class="q3">Jul</td>
+        <td class="q3">Aug</td>
+        <td class="q3">Sept</td>
+        <td class="q4">Oct</td>
+        <td class="q4">Nov</td>
+        <td class="q4">Dec</td>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2020</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>15</td>
+        <td>20</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>15</td>
+        <td>20</td>
+        <td>25</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
