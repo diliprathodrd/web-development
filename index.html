@@ -88,7 +88,7 @@
   <h3>This is another Heading 3</h3>
   <h4>Heading 4</h4>
   <h5>Heading 5</h5>
-  <h6>Heading 6</h6>
+  <h6 class="q1">Heading 6</h6>
 
   <!-- for paragraph we use p tag -->
   <p class="first-para" style="text-indent: 20px; border: 1px solid red; text-align: center; margin: 50px; padding: 20px;">
@@ -230,6 +230,7 @@
 
   <!-- colspan and rowspan -->
 
+  <div class="table1" id="student1">
   <table>
     <thead>
       <tr>
@@ -293,5 +294,73 @@
       </tr>
     </tbody>
   </table>
+</div>
+
+<br><br><br>
+<div class="table1" id="student2">
+  <table>
+    <thead>
+      <tr>
+        <th class="year-col" rowspan="4">Year</th>
+        <th class="quarter-col" colspan="12">Quarter</th>
+      </tr>
+      <tr>
+        <th class="month-col" colspan="12">Month</th>
+      </tr>
+      <tr>
+        <th class="q1" colspan="3">Q1</th>
+        <th class="q2" colspan="3">Q2</th>
+        <th class="q3" colspan="3">Q3</th>
+        <th class="q4" colspan="3">Q4</th>
+      </tr>
+      <tr>
+        <td class="q1">Jan</td>
+        <td class="q1">Feb</td>
+        <td class="q1">Mar</td>
+        <td class="q2">Apr</td>
+        <td class="q2">May</td>
+        <td class="q2">Jun</td>
+        <td class="q3">Jul</td>
+        <td class="q3">Aug</td>
+        <td class="q3">Sept</td>
+        <td class="q4">Oct</td>
+        <td class="q4">Nov</td>
+        <td class="q4">Dec</td>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2020</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>15</td>
+        <td>20</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>15</td>
+        <td>20</td>
+        <td>25</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </body>
 </html>
