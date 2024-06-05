@@ -1,0 +1,26 @@
+/* universal selector */
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* element selector */
+h1 {
+  font-size: 20px;
+}
+
+/* id selector */
+#heading {
+  border: 4px solid blue;
+}
+
+/* class selector */
+.heading-class {
+  border-radius: 4px;
+}
+
+/* grouping selector */
+.heading-class,
+h2 {
+  background-color: yellow;
+}
