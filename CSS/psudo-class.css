@@ -1,0 +1,15 @@
+input:focus {
+  background-color: red;
+}
+
+.input-box p:first-child {
+  border: 2px solid red;
+}
+
+#first-item {
+  background-color: red;
+}
+
+.items {
+  background-color: green;
+}
