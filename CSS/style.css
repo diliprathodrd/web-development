@@ -24,3 +24,21 @@ h1 {
 h2 {
   background-color: yellow;
 }
+
+body {
+  /* background-color: rgba(67, 105, 175, 0.5); */
+  /* background-color: #f00; */
+  /* background-image: url("./code.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
+  background: red url("./code.png") no-repeat center;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  border: 2px solid red;
+  /* background-color: aqua; */
+  /* background-image: url("./code.png"); */
+}
