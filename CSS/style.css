@@ -1,13 +1,13 @@
 /* universal selector */
 * {
-  margin: 5px;
-  padding: 5px;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* element selector */
-h1 {
+/* h1 {
   font-size: 20px;
-}
+} */
 
 /* id selector */
 #heading {
@@ -32,13 +32,30 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; */
-  background: red url("./code.png") no-repeat center;
+  /* background: red url("./code.png") no-repeat center; */
 }
 
-.box {
+.box1 {
   width: 500px;
   height: 500px;
   border: 2px solid red;
+  border-radius: 20%;
+  margin: 100px;
   /* background-color: aqua; */
   /* background-image: url("./code.png"); */
+}
+
+h1 {
+  border: 2px solid red;
+  /* padding: 20px; */
+  background-color: aqua;
+  /* border-left: 8px solid green; */
+}
+
+.box2 {
+  width: 500px;
+  height: 500px;
+  border: 2px solid red;
+  border-radius: 20%;
+  margin-top: 100px;
 }
