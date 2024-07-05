@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  position: relative;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.box-1 {
+  background-color: aqua;
+  z-index: 1;
+}
+
+.box-2 {
+  background-color: blue;
+  z-index: 2;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+
+.box-3 {
+  background-color: green;
+  z-index: 3;
+  position: absolute;
+  left: 350px;
+  top: 100px;
+}
+
+.box-4 {
+  background-color: yellow;
+  z-index: 2;
+  position: absolute;
+  left: 550px;
+  top: 150px;
+}
