@@ -18,3 +18,30 @@
   border: 1px solid black;
   font-size: 100px;
 }
+
+.grandfather {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: red;
+}
+
+.grandfather > .father {
+  letter-spacing: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grandfather > .father > .child {
+  margin-left: 50px;
+  color: green;
+}
+
+span {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}

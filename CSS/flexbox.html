@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="./flexbox.css" />
   </head>
   <body>
-    <h1>Create a Flex Container</h1>
-
-    <div class="container">
-      <div class="item">1</div>
-      <div class="item">2</div>
-      <div class="item">3</div>
-      <div class="item">4</div>
-      <div class="item">5</div>
-      <div class="item">6</div>
-      <div class="item">7</div>
+    <div class="grandfather">
+      <span>Grandfather</span>
+      <h1>Grandfather</h1>
+      <div class="father">
+        Father
+        <div class="child">
+          <ol>
+            <li>child 1</li>
+            <li>child 2</li>
+            <li>child 3</li>
+          </ol>
+        </div>
+      </div>
     </div>
+    <div class="grandfather child">Test Heading</div>
   </body>
 </html>
